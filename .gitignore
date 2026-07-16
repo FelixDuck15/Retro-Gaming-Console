@@ -1,0 +1,16 @@
+# Fichiers temporaires et sauvegardes KiCad
+*.bak
+*-bak
+*.bck
+*.tmp
+_autosave-*
+*-save.pro
+*-save.kicad_pcb
+*-save.kicad_sch
+
+# Fichiers de cache et préférences locales
+*.kicad_prl
+*.fp-info-cache
+
+# Fichiers de verrouillage (lock)
+*.lck
