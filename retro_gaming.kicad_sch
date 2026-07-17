@@ -1151,6 +1151,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -1797,6 +1975,193 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:1N4148"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "100V 0.15A standard switching diode, DO-35"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1N4148_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2801,6 +3166,260 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TPS61230ARNST:TPS61230ARNST"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -12.7 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TPS61230ARNST"
+				(at -12.7 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "TPS61230ARNST:IC_TPS61230ARNST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PARTREV" "B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.0 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "TPS61230ARNST_0_0"
+				(rectangle
+					(start -12.7 -12.7)
+					(end 12.7 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "CBST"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "FB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "SW"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TS3USB221RSER:TS3USB221RSER"
 			(pin_names
 				(offset 0.254)
@@ -3772,6 +4391,30 @@
 		(uuid "aa12864e-795d-47bc-96f3-4e34c3e48748")
 	)
 	(rectangle
+		(start 12.7 116.84)
+		(end 107.95 157.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b4c61d52-fecb-4629-823c-dcc1b4fe2ee2")
+	)
+	(rectangle
+		(start 109.22 116.84)
+		(end 176.53 157.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d38611f7-9d2c-47c2-8eac-4fb1907226fd")
+	)
+	(rectangle
 		(start 12.7 76.2)
 		(end 91.44 115.57)
 		(stroke
@@ -3803,6 +4446,16 @@
 		)
 		(uuid "51e62fe4-7f58-405c-9b5f-a3ef27cac1f4")
 	)
+	(text "Régulateur 5V"
+		(exclude_from_sim no)
+		(at 20.32 119.126 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "56e60bf1-f189-42d3-8457-e0f4fb30ae3f")
+	)
 	(text "ADC Joystick"
 		(exclude_from_sim no)
 		(at 19.304 77.978 0)
@@ -3813,6 +4466,16 @@
 		)
 		(uuid "6a80791b-e169-4db6-a419-ddc0f724b3db")
 	)
+	(text "Regulateur 5V - 3.3V"
+		(exclude_from_sim no)
+		(at 169.164 14.986 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8fb0c5b0-d035-4791-9268-abe752a3ad67")
+	)
 	(text "Speaker ampli"
 		(exclude_from_sim no)
 		(at 20.32 14.986 0)
@@ -3822,6 +4485,16 @@
 			)
 		)
 		(uuid "bc3c2e3a-80ed-4c99-bee8-af7595493320")
+	)
+	(text "Switch on/off"
+		(exclude_from_sim no)
+		(at 117.094 118.872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c430d0ed-c563-4e61-b311-fa5e1c5af6fb")
 	)
 	(junction
 		(at 256.54 110.49)
@@ -3860,6 +4533,12 @@
 		(uuid "302d60f7-442e-4203-8c4e-4192fa987f46")
 	)
 	(junction
+		(at 43.18 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38d91c80-ab92-44cf-b600-f16ca13cf8d4")
+	)
+	(junction
 		(at 64.77 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3870,6 +4549,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c82b878-c9f5-4eea-9e42-d0947871ef6c")
+	)
+	(junction
+		(at 262.89 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51067cd4-8280-4605-ad77-365b8df6a217")
+	)
+	(junction
+		(at 93.98 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "578e1720-84b8-484f-a7af-b0f1442a0735")
 	)
 	(junction
 		(at 274.32 123.19)
@@ -3926,16 +4617,40 @@
 		(uuid "cba657b0-7132-46e2-afb4-9818dc77cf21")
 	)
 	(junction
+		(at 26.67 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf1364ec-f6a5-4ba6-91d4-90d6e4613227")
+	)
+	(junction
+		(at 48.26 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d09ec17f-f168-403b-937c-9316a0b8f201")
+	)
+	(junction
 		(at 167.64 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd911ae3-394a-4fdf-b099-f25904db4159")
 	)
 	(junction
+		(at 87.63 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e18247c2-4b20-4c02-9637-74a344ba3721")
+	)
+	(junction
 		(at 250.19 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7457162-f9d4-4dcb-8cfe-177452c87a0a")
+	)
+	(junction
+		(at 87.63 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eed8c24d-a7a9-4074-a9a6-5e03e2bff050")
 	)
 	(junction
 		(at 275.59 102.87)
@@ -3961,6 +4676,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 129.54) (xy 93.98 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00601c43-16ba-4471-bdb0-dcd424a8d62c")
+	)
+	(wire
+		(pts
 			(xy 208.28 115.57) (xy 213.36 115.57)
 		)
 		(stroke
@@ -3971,6 +4696,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 129.54) (xy 49.53 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03b86cbb-e675-402e-b236-8bffc53cc372")
+	)
+	(wire
+		(pts
 			(xy 248.92 153.67) (xy 250.19 153.67)
 		)
 		(stroke
@@ -3978,6 +4713,16 @@
 			(type default)
 		)
 		(uuid "040738cb-a030-4f40-bc53-dffe2bcf1cbe")
+	)
+	(wire
+		(pts
+			(xy 262.89 100.33) (xy 267.97 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09bcb240-c19b-486e-b1bf-6afc9f89f876")
 	)
 	(wire
 		(pts
@@ -4091,6 +4836,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 129.54) (xy 87.63 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "132a840d-2731-4a1e-9f9a-3f006b92ab74")
+	)
+	(wire
+		(pts
 			(xy 250.19 125.73) (xy 250.19 127)
 		)
 		(stroke
@@ -4121,6 +4876,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 134.62) (xy 49.53 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c4b12b1-7401-41d1-b80f-4de53c040204")
+	)
+	(wire
+		(pts
 			(xy 267.97 130.81) (xy 267.97 132.08)
 		)
 		(stroke
@@ -4138,6 +4903,16 @@
 			(type default)
 		)
 		(uuid "1eb343df-1b18-42f8-b730-1511fe4a5290")
+	)
+	(wire
+		(pts
+			(xy 43.18 149.86) (xy 49.53 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2238c804-7c7d-4106-a1f9-df38bf045fba")
 	)
 	(wire
 		(pts
@@ -4191,6 +4966,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 142.24) (xy 43.18 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3921abe7-4192-4d34-94f7-79531521b06c")
+	)
+	(wire
+		(pts
 			(xy 252.73 120.65) (xy 248.92 120.65)
 		)
 		(stroke
@@ -4241,6 +5026,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 128.27) (xy 26.67 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45cf86d0-af79-45b0-8224-15a7a70832d1")
+	)
+	(wire
+		(pts
 			(xy 64.77 59.69) (xy 64.77 62.23)
 		)
 		(stroke
@@ -4278,6 +5073,26 @@
 			(type default)
 		)
 		(uuid "52320bc0-2ed7-4e29-b140-1cdc6c6d9ce5")
+	)
+	(wire
+		(pts
+			(xy 48.26 137.16) (xy 45.72 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54d34c87-eab0-484b-8c6f-369b60b174c6")
+	)
+	(wire
+		(pts
+			(xy 262.89 97.79) (xy 262.89 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58801c23-7523-42f1-b2cd-d0e69efe054f")
 	)
 	(wire
 		(pts
@@ -4321,6 +5136,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 134.62) (xy 46.99 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65072fb3-a52a-40fa-bff0-8bf554ed0399")
+	)
+	(wire
+		(pts
 			(xy 63.5 54.61) (xy 64.77 54.61)
 		)
 		(stroke
@@ -4348,6 +5173,16 @@
 			(type default)
 		)
 		(uuid "6b10f747-76c1-446c-a230-f77d6c113e64")
+	)
+	(wire
+		(pts
+			(xy 46.99 139.7) (xy 49.53 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ba3a4ad-1c13-4f9c-bbf8-0b5f558ba66e")
 	)
 	(wire
 		(pts
@@ -4431,7 +5266,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 100.33) (xy 267.97 100.33)
+			(xy 250.19 100.33) (xy 262.89 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4531,6 +5366,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 149.86) (xy 49.53 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f85c441-1174-40de-866c-29acd9146f22")
+	)
+	(wire
+		(pts
 			(xy 63.5 59.69) (xy 64.77 59.69)
 		)
 		(stroke
@@ -4558,6 +5403,16 @@
 			(type default)
 		)
 		(uuid "a3f7146a-1b39-40e7-a1a9-36e313cd86c1")
+	)
+	(wire
+		(pts
+			(xy 43.18 142.24) (xy 46.99 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a595a65e-21b8-4dd4-940c-ff79d935eb7f")
 	)
 	(wire
 		(pts
@@ -4608,6 +5463,16 @@
 			(type default)
 		)
 		(uuid "ae667f48-e926-4400-9857-64f18317d4b5")
+	)
+	(wire
+		(pts
+			(xy 85.09 134.62) (xy 85.09 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af04fd61-37a8-4d0d-8f02-e666b254f35a")
 	)
 	(wire
 		(pts
@@ -4671,6 +5536,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 137.16) (xy 48.26 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6dd47fb-2790-43f9-b63b-b16ef6946ef4")
+	)
+	(wire
+		(pts
 			(xy 248.92 123.19) (xy 261.62 123.19)
 		)
 		(stroke
@@ -4708,6 +5583,16 @@
 			(type default)
 		)
 		(uuid "c05e6c40-c1f0-42d2-a0e1-039f13a53e15")
+	)
+	(wire
+		(pts
+			(xy 26.67 142.24) (xy 26.67 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c071e931-78e3-4e11-b036-7346e5d55130")
 	)
 	(wire
 		(pts
@@ -4761,6 +5646,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 137.16) (xy 87.63 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3599137-09af-4eb1-93c8-ab95828f849f")
+	)
+	(wire
+		(pts
 			(xy 204.47 50.8) (xy 207.01 50.8)
 		)
 		(stroke
@@ -4788,6 +5683,16 @@
 			(type default)
 		)
 		(uuid "dc88add1-967a-4f85-8b5d-6255e3bf584a")
+	)
+	(wire
+		(pts
+			(xy 93.98 129.54) (xy 101.6 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc9c00aa-5445-4562-a4b6-07826a691ecc")
 	)
 	(wire
 		(pts
@@ -4828,6 +5733,16 @@
 			(type default)
 		)
 		(uuid "e2d2a801-3f11-412c-80cf-1fc9a2143b80")
+	)
+	(wire
+		(pts
+			(xy 46.99 142.24) (xy 46.99 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e31c2375-e8a6-44b1-a722-69798c6dc77e")
 	)
 	(wire
 		(pts
@@ -4909,6 +5824,16 @@
 		)
 		(uuid "ffc81977-ca28-48d6-8d4e-58ed2d99ce92")
 	)
+	(label "Vin"
+		(at 262.89 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09c773bd-09b3-4e31-b1d3-eb100d45aa63")
+	)
 	(label "DIN"
 		(at 27.94 36.83 180)
 		(effects
@@ -4959,6 +5884,16 @@
 		)
 		(uuid "2f914442-903c-40a8-bef5-79b1360e871e")
 	)
+	(label "Vin"
+		(at 182.88 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "41070ae9-13fe-4f5e-ae2d-b03b3ffc650b")
+	)
 	(label "JD-AxeY"
 		(at 39.37 102.87 180)
 		(effects
@@ -4969,16 +5904,6 @@
 		)
 		(uuid "413e67b1-5824-472a-b265-d2089d9003d3")
 	)
-	(label "Batt"
-		(at 182.88 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "485c5059-e0bc-498b-86c3-76a23316847a")
-	)
 	(label "GPIO9"
 		(at 132.08 24.13 180)
 		(effects
@@ -4988,6 +5913,16 @@
 			(justify right bottom)
 		)
 		(uuid "496737de-c1ff-4bc7-bf90-656e38a2516d")
+	)
+	(label "Vin"
+		(at 26.67 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4a04c5a2-187e-490e-aa7d-eba24b6aaaa2")
 	)
 	(label "CLK"
 		(at 59.69 97.79 0)
@@ -5178,6 +6113,16 @@
 			(justify right bottom)
 		)
 		(uuid "9d945620-bc79-459a-b925-8fa6ca57a823")
+	)
+	(label "Power_Keep"
+		(at 39.37 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a47f6c4f-3df5-4c8f-82c8-7f049bb1e6e9")
 	)
 	(label "USB_P"
 		(at 102.87 99.06 180)
@@ -5377,6 +6322,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 87.63 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "06be3535-b68d-4117-8afb-dd09dc93c9c4")
+		(property "Reference" "#PWR0117"
+			(at 87.63 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.424 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a4e9eda-cdf8-440a-9463-b66bffc4a36a")
+		)
+		(instances
+			(project "retro_gaming"
+				(path "/846f8491-b88a-4f32-884f-ae3da498aa30"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 274.32 127 0)
 		(unit 1)
@@ -5452,6 +6474,83 @@
 			(project "retro_gaming"
 				(path "/846f8491-b88a-4f32-884f-ae3da498aa30"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0bbfbd5e-f5f9-4e19-bc02-743be65f802f")
+		(property "Reference" "#PWR0118"
+			(at 38.1 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f60d6d3-cddc-4130-8182-809ea7699534")
+		)
+		(instances
+			(project "retro_gaming"
+				(path "/846f8491-b88a-4f32-884f-ae3da498aa30"
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -5815,6 +6914,87 @@
 			(project "retro_gaming"
 				(path "/846f8491-b88a-4f32-884f-ae3da498aa30"
 					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 87.63 133.35 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "16fb9af5-1136-4ad6-9564-ef667faf4b9e")
+		(property "Reference" "R19"
+			(at 87.122 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "316k"
+			(at 92.456 136.144 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.614 133.096 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 87.63 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6958878f-4a4f-4826-a5a9-8347946cce50")
+		)
+		(pin "1"
+			(uuid "eac5ac26-2474-4ef0-abd6-275b8fc06375")
+		)
+		(instances
+			(project "retro_gaming"
+				(path "/846f8491-b88a-4f32-884f-ae3da498aa30"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -7330,6 +8510,168 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 87.63 140.97 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4960ddeb-3289-4252-b751-11e2f3e67040")
+		(property "Reference" "R20"
+			(at 86.614 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 93.472 143.764 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.614 140.716 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 87.63 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e89d0162-52af-4625-943d-163e9ee246c3")
+		)
+		(pin "1"
+			(uuid "6a39b6f1-729b-4357-a6f7-4ba6eb7ffda4")
+		)
+		(instances
+			(project "retro_gaming"
+				(path "/846f8491-b88a-4f32-884f-ae3da498aa30"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 41.91 137.16 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49862764-4652-4a09-a4dd-a93f8828c7b8")
+		(property "Reference" "R21"
+			(at 35.052 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 43.942 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.656 138.176 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 41.91 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c4b7947a-e37d-4ddd-a63d-275b0971548b")
+		)
+		(pin "1"
+			(uuid "abba215f-a9d9-4e66-89f1-e0b108af3785")
+		)
+		(instances
+			(project "retro_gaming"
+				(path "/846f8491-b88a-4f32-884f-ae3da498aa30"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_SwitchedCapacitor:TPS60501DGS")
 		(at 194.31 43.18 0)
 		(unit 1)
@@ -8395,6 +9737,87 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 93.98 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "75b50810-e2b9-4e98-86da-721954718300")
+		(property "Reference" "C2"
+			(at 94.234 131.318 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 94.488 135.382 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 94.9452 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 93.98 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd4ae65f-8e40-41f5-bbed-4efb4049f3b4")
+		)
+		(pin "2"
+			(uuid "87c109ef-0766-404b-86fb-904a73fea90b")
+		)
+		(instances
+			(project "retro_gaming"
+				(path "/846f8491-b88a-4f32-884f-ae3da498aa30"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 252.73 105.41 270)
 		(unit 1)
 		(body_style 1)
@@ -9099,6 +10522,87 @@
 			(project "retro_gaming"
 				(path "/846f8491-b88a-4f32-884f-ae3da498aa30"
 					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 43.18 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8deb5e87-aba5-4add-81d6-b6c6983a0590")
+		(property "Reference" "C1"
+			(at 43.434 144.018 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 43.688 148.082 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.1452 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 43.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ebcf888c-3d88-4aee-b2f9-07c70082b05e")
+		)
+		(pin "2"
+			(uuid "b1843be8-a545-4347-9d35-572416153912")
+		)
+		(instances
+			(project "retro_gaming"
+				(path "/846f8491-b88a-4f32-884f-ae3da498aa30"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -9963,6 +11467,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 101.6 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a362ffec-1938-4527-8984-b9a8826b27a2")
+		(property "Reference" "C3"
+			(at 101.854 131.318 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 102.108 135.382 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.5652 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 101.6 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a68ad8f0-5a42-4fd9-8b17-a5f25dfa5511")
+		)
+		(pin "2"
+			(uuid "7376e4e4-7dfd-473e-bd1d-b4e872221169")
+		)
+		(instances
+			(project "retro_gaming"
+				(path "/846f8491-b88a-4f32-884f-ae3da498aa30"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 64.77 63.5 0)
 		(unit 1)
@@ -10821,6 +12406,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 30.48 142.24 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "badceabd-1039-4495-b470-f548a187360a")
+		(property "Reference" "L1"
+			(at 30.734 140.462 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uH"
+			(at 30.48 143.256 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 30.48 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "267709c2-33de-4b8a-bacd-1ee087a31526")
+		)
+		(pin "1"
+			(uuid "a2420010-a265-4539-9581-7bd1cc88e55a")
+		)
+		(instances
+			(project "retro_gaming"
+				(path "/846f8491-b88a-4f32-884f-ae3da498aa30"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 59.69 102.87 0)
 		(unit 1)
@@ -10972,6 +12636,102 @@
 			(project "retro_gaming"
 				(path "/846f8491-b88a-4f32-884f-ae3da498aa30"
 					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JS102011SAQN:JS102011SAQN")
+		(at 133.35 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c48b8e09-a991-40b0-ac4c-2a6cadb1710d")
+		(property "Reference" "S3"
+			(at 133.35 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JS102011SAQN"
+			(at 133.35 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JS102011SAQN:SW_JS102011SAQN"
+			(at 133.35 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "C&K"
+			(at 133.35 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "4b00cd42-e033-45ba-9bcf-f950c8279788")
+		)
+		(pin "1"
+			(uuid "8d16519b-9075-4d8f-a826-3b8194d9af90")
+		)
+		(pin "3"
+			(uuid "f389846f-2e11-4e95-ade4-483e64da12cc")
+		)
+		(instances
+			(project "retro_gaming"
+				(path "/846f8491-b88a-4f32-884f-ae3da498aa30"
+					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -11685,6 +13445,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 85.09 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d5fa21db-3f38-417c-b36a-496ca2744ab1")
+		(property "Reference" "#PWR0116"
+			(at 85.09 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 150.622 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5820cc9-a1ca-413b-8f88-de1a7cf15488")
+		)
+		(instances
+			(project "retro_gaming"
+				(path "/846f8491-b88a-4f32-884f-ae3da498aa30"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 252.73 90.17 0)
 		(unit 1)
@@ -11833,6 +13670,150 @@
 			(project "retro_gaming"
 				(path "/846f8491-b88a-4f32-884f-ae3da498aa30"
 					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TPS61230ARNST:TPS61230ARNST")
+		(at 67.31 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d91e8dfe-2836-4eec-80ae-2c963e61dcf3")
+		(property "Reference" "U2"
+			(at 67.31 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS61230ARNST"
+			(at 67.31 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TPS61230ARNST:IC_TPS61230ARNST"
+			(at 67.31 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "B"
+			(at 67.31 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 67.31 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.0 mm"
+			(at 67.31 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 67.31 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "5"
+			(uuid "938869e3-c7ba-4ffe-83fb-e6179a1d9721")
+		)
+		(pin "1"
+			(uuid "1b8f5799-b195-4a3c-b91f-9c8227d5f29a")
+		)
+		(pin "6"
+			(uuid "5ec7b758-256f-45aa-b698-34fcf7d4d3d1")
+		)
+		(pin "2"
+			(uuid "d23ccb7b-51f4-467b-8b53-9090eb7be073")
+		)
+		(pin "4"
+			(uuid "d0e2c938-39dc-4126-b2b5-7e52bfec4e0b")
+		)
+		(pin "3"
+			(uuid "a8d9d82a-56a1-46c9-bd01-9e2f96ae74d3")
+		)
+		(pin "7"
+			(uuid "43750077-571f-40e7-b556-6267ae1bfec7")
+		)
+		(instances
+			(project "retro_gaming"
+				(path "/846f8491-b88a-4f32-884f-ae3da498aa30"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -12732,6 +14713,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148")
+		(at 144.78 134.62 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f7067081-4507-4e74-982d-dd2c9961f6ca")
+		(property "Reference" "D1"
+			(at 141.732 132.334 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 148.844 132.334 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 144.78 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 144.78 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 144.78 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 144.78 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 144.78 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "922e20b7-6c98-4a86-bd1a-61b536986c85")
+		)
+		(pin "2"
+			(uuid "81be0dcb-6e09-425f-ba30-764b28201d14")
+		)
+		(instances
+			(project "retro_gaming"
+				(path "/846f8491-b88a-4f32-884f-ae3da498aa30"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 266.7 118.11 90)
 		(unit 1)
@@ -12807,6 +14889,107 @@
 			(project "retro_gaming"
 				(path "/846f8491-b88a-4f32-884f-ae3da498aa30"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 43.18 134.62 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fcc20829-58f3-4184-9122-36e5cf84868d")
+		(property "Reference" "D3"
+			(at 43.18 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 42.926 132.334 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 43.18 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 43.18 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 43.18 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 43.18 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 43.18 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cffc2550-1de8-4102-9789-796cf126010a")
+		)
+		(pin "2"
+			(uuid "38893066-4cae-462a-bcf4-ca8b04be39f5")
+		)
+		(instances
+			(project "retro_gaming"
+				(path "/846f8491-b88a-4f32-884f-ae3da498aa30"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -12919,7 +15102,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "Connector.kicad_sch"
 			(at 233.68 75.5146 0)
 			(show_name no)
 			(do_not_autoplace no)
