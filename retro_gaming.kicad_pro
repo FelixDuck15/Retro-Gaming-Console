@@ -632,7 +632,7 @@
         "uuid": "846f8491-b88a-4f32-884f-ae3da498aa30"
       }
     ],
-    "used_designators": "J1-7,R1-3",
+    "used_designators": "R1-14,#FLG1-3,J1-7,D1-3,#PWR1-59,U1-5,S1,C1-17,L1-3,TH1",
     "variants": []
   },
   "sheets": [
@@ -641,7 +641,7 @@
       "Root"
     ],
     [
-      "bc33cafc-cb3e-4ecb-ba08-a3ca81a3c9bb",
+      "d96f8172-c5f1-448a-811d-4e92c5963873",
       "Connector"
     ]
   ],
