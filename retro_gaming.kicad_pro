@@ -224,7 +224,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "Révision B"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -632,7 +632,7 @@
         "uuid": "846f8491-b88a-4f32-884f-ae3da498aa30"
       }
     ],
-    "used_designators": "R19-21,J9-10,D1,D3,L1,#PWR6,#PWR111-118,U2,S3,C1-3",
+    "used_designators": "J1-7,R1-3",
     "variants": []
   },
   "sheets": [
@@ -641,7 +641,7 @@
       "Root"
     ],
     [
-      "6ce25190-27d2-4ffb-96ea-487247eaf92b",
+      "bc33cafc-cb3e-4ecb-ba08-a3ca81a3c9bb",
       "Connector"
     ]
   ],
